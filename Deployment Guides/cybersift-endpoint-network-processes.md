@@ -1,1 +1,1 @@
-# Deploying CyberSift Endpoint to enrich logs with network process names
+# Deploying CyberSift Endpoint to enrich logs with process names
