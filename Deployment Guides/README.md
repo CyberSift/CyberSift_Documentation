@@ -1,6 +1,6 @@
 # Deployment Guides
 
-CyberSift can be deployed in a number of ways, depending on your security and log collection needs. If you'd like further information on what you should collect please refer to the [Security Sources Collection Guide Overview](#).Below we outline the most popular methods to deploy CyberSift 
+CyberSift can be deployed in a number of ways, depending on your security and log collection needs. If you'd like further information on what you should collect please refer to the [Security Sources Collection Guide Overview](#). Below we outline the most popular methods to deploy CyberSift 
 
 ### Overview
 
@@ -14,8 +14,8 @@ CyberSift provides AWS-backed cloud services which allow for provisioning and ru
 
 ### What Would You Like To Do?
 
-- [I would like to send my firewall's syslog connection logs to CyberSift]()
-This is normally the first step in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog?](#)
+- [I would like to send my firewall's syslog connection logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/firewall-connections-syslog.md)
+This is normally the first step in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-logs-without-firewall.md)
 
 - I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift
 - I would like to use CyberSift to monitor Windows Event Logs (beta)
