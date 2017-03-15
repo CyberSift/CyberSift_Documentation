@@ -5,4 +5,10 @@ Repository for CyberSift documentation. Should you feel a feature is not well do
 ## Table of Contents
 
 - ### [Collection Guides](#)
+Guides which describe which logs an organization should collect and monitor. They describe how CyberSift analyzes these logs to mitigate threats to your organization.
+
 - ### [Deployment Guides](#)
+Guides to help you determine the best way to deploy CyberSift with minimal impact to you organizatin
+
+- ### [CyberSift and Security Standards](#)
+Guides to help you use CyberSift features to ensure compliance to Security Standards such as ISO and PCI
