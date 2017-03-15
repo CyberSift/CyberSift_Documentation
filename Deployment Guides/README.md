@@ -2,6 +2,12 @@
 
 CyberSift can be deployed in a number of ways, depending on your security and log collection needs. If you'd like further information on what you should collect please refer to the [Security Sources Collection Guide Overview](#).Below we outline the most popular methods to deploy CyberSift 
 
+### Overview
+
+CyberSift can be deployed in one of two ways: 
+  - On premise
+  - Cloud based
+
 ### What Would You Like To Do?
 
 - I would like to send my firewall connection logs to CyberSift
