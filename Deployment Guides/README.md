@@ -5,8 +5,11 @@ CyberSift can be deployed in a number of ways, depending on your security and lo
 ### Overview
 
 CyberSift can be deployed in one of two ways: 
-  - On premise
-  - Cloud based
+
+  - #### On premise
+A Virtual Machine can be provided (VMWare / VirtualBox... other vendor support coming asap), or alternatively you can buy a physical server.    
+  
+  - #### Cloud based
 
 ### What Would You Like To Do?
 
