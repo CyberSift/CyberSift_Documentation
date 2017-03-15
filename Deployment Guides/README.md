@@ -18,7 +18,10 @@ CyberSift provides AWS-backed cloud services which allow for provisioning and ru
 
 This is normally the first step in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-logs-without-firewall.md)
 
-- I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift
+- [I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-endpoint-network-processes.md)
+
+CyberSift also allows you to vizualize which processes (e.g Skype, Chrome, Apache, ma1wAr3.exe) handled the connection that you see on the console. This is currently supported on Linux and Windows systems onlu.
+
 - I would like to use CyberSift to monitor Windows Event Logs (beta)
 - I would like to use CyberSift to monitor my HTTP Webservers
 - I would like to use CyberSift to monitor my DNS requests
