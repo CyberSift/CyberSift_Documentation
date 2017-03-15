@@ -14,7 +14,9 @@ CyberSift provides AWS-backed cloud services which allow for provisioning and ru
 
 ### What Would You Like To Do?
 
-- I would like to send my firewall connection logs to CyberSift
+- [I would like to send my firewall's syslog connection logs to CyberSift]()
+This is normally the first step in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog?](#)
+
 - I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift
 - I would like to use CyberSift to monitor Windows Event Logs (beta)
 - I would like to use CyberSift to monitor my HTTP Webservers
