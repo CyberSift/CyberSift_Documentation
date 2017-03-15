@@ -20,10 +20,22 @@ This is normally the first step in any deployment, and forms the basis for Cyber
 
 - [I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-endpoint-network-processes.md)
 
-CyberSift also allows you to vizualize which processes (e.g Skype, Chrome, Apache, ma1wAr3.exe) handled the connection that you see on the console. This is currently supported on Linux and Windows systems onlu.
+CyberSift also allows you to vizualize which processes (e.g Skype, Chrome, Apache, ma1wAr3.exe) handled the connection that you see on the console. This is currently supported on Linux and Windows systems only.
 
-- I would like to use CyberSift to monitor Windows Event Logs (beta)
-- I would like to use CyberSift to monitor my HTTP Webservers
-- I would like to use CyberSift to monitor my DNS requests
-- I would like to use Snort to enrich the logs sent to CyberSift
-- I would like to use OpenVas to enrich the logs sent to CyberSift
+- [I would like to use CyberSift to monitor Windows Event Logs (beta)](#)
+
+
+
+- [I would like to use CyberSift to monitor my HTTP Webservers](#)
+
+
+
+- [I would like to use CyberSift to monitor my DNS requests](#)
+
+
+
+- [I would like to use Snort to enrich the logs sent to CyberSift](#)
+
+
+
+- [I would like to use OpenVas to enrich the logs sent to CyberSift](#)
