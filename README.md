@@ -4,5 +4,5 @@ Repository for CyberSift documentation. Should you feel a feature is not well do
 
 ## Table of Contents
 
-- ###[Collection Guides](#)
-- ###[Deployment Guides](#)
+- ### [Collection Guides](#)
+- ### [Deployment Guides](#)
