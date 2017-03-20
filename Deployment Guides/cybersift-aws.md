@@ -21,7 +21,7 @@ TODO
 
 ![aws-es-access-policy](https://docs.google.com/drawings/d/1SyXgmHyVHSG6CnejC0IjCRA4iBGMyKFQ8rJWuAY2UoM/pub?w=899&h=518)
 
-5. Review the generated settings and you’re done! Next we setup the CyberSift processing server.
+5. Review the generated settings and you’re done! Make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
 
 ![aws-es-review](https://docs.google.com/drawings/d/1uqOf9zEhMUOcjL5qWxqamduppHYBosYdQr9Rs9YgVQY/pub?w=918&h=2540
 
@@ -39,4 +39,23 @@ TODO
  
  ![ec2-es-ap](https://docs.google.com/drawings/d/1m0HqlJykjOf8S8Oa1yG5MvQNHyIFviT9MVDUGwntfMo/pub?w=578&h=491)
  
+ ![es-domain-processing](https://docs.google.com/drawings/d/1K6RJoyzV6FZkrjyYC8XUDOj0_vGiRr3NLjLUY68Wo8w/pub?w=274&h=134)
  
+ 8. We can now open the CyberSift dashboard at "http://enter-your-ec2-public-ip". The initial dashboard will look similar to the below:
+ 
+ ![cs-initial-dashboard](https://docs.google.com/drawings/d/1lVv8dAV1LUS7wS8z9GI7iHLSOkv2lLSBpXt7AESXmCk/pub?w=924&h=392)
+ 
+ Notice the empty vizualizations and the widgets displaying "N/A". This is because we now need to perform the last step - connecting the CyberSift processing server to the ElasticSearch backend. This is done very easily by using the CyberSift dashboard to navigate to: **Configuration > Distributed Architecture Setup**.  
+ 
+ First, copy/paste the ElasticSearch endpoint displayed in step 5 above, into the **ElasticSearch REST API** configuration box. **Important: Make sure to click "Save Settings"!** 
+ 
+ ![cs-connect-es](https://docs.google.com/drawings/d/1bqa0CsPsiPKOpSCUQ1nFzheFtqoXRLLA73hOfK7bhDQ/pub?w=812&h=680)
+ 
+ Second, expand **Cloud Settings** and press **Provision New ElasticSeach Backend** *(note this may take about 30-45 seconds to complete)*
+ 
+ ![cs-cloud-settings](https://docs.google.com/drawings/d/1Pq5L4MSvoX4SQMf1Ac2bX657E4u-kXWZ14W0jvbj7bk/pub?w=365&h=281)
+ 
+
+**All done!** We're ready to start sending logs to CyberSift!. Some elements of the UI may appear blank or unresponsive until you send some logs to Cyberift. Let's quickly test ssending some information to CyberSift to ensure everything is working as it should
+
+### Generate some honeypot alerts.
