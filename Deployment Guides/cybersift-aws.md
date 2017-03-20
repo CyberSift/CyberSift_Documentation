@@ -25,7 +25,7 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 
 5. Review the generated settings and you’re done! Make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
 
-![aws-es-review](https://docs.google.com/drawings/d/1uqOf9zEhMUOcjL5qWxqamduppHYBosYdQr9Rs9YgVQY/pub?w=918&h=2540
+![aws-es-review](https://docs.google.com/drawings/d/1uqOf9zEhMUOcjL5qWxqamduppHYBosYdQr9Rs9YgVQY/pub?w=918&h=2540)
 
 6. Launch the CyberSift AWS AMI. The AMI can be found in the EC2 dashboard under Images > AMIs (please note that you need to contact CyberSift support to gain access to this AMI - it is not publically available yet). Right click and “launch” the AMI. When reviewing the settings, we recommend allowing only the following ports, only from authorized public IPs:
 
