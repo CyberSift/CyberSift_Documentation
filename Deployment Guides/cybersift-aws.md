@@ -76,11 +76,11 @@ After successfully installing the agent, you can click on the **CyberSift Loggin
 
 **Note:** Since this is probably the first time running CyberSift, you need to refresh the indices to ensure Kibana will display the correct information. To do this, click on "Management > Index Patterns > packetbeat-\*" and click on the refresh icon, as shown below. Repeat this for filebeat-\*
 
-[!cs-refresh-index](https://docs.google.com/drawings/d/1qztmpOz02rD09wX9HZ9qZawxpxG-NhQcqLXo5sQjbdw/pub?w=926&h=276)
+![cs-refresh-index](https://docs.google.com/drawings/d/1qztmpOz02rD09wX9HZ9qZawxpxG-NhQcqLXo5sQjbdw/pub?w=926&h=276)
 
 All done! Now in the "Discover" tab, indices should start being populated, as shown below:
 
-[!cs-populated-index](https://docs.google.com/drawings/d/1YxPwOAKxjXnTmxiKGuBMIgIPOpsK6F62_ayb2P5QN3w/pub?w=925&h=204)
+![cs-populated-index](https://docs.google.com/drawings/d/1YxPwOAKxjXnTmxiKGuBMIgIPOpsK6F62_ayb2P5QN3w/pub?w=925&h=204)
 
 Happy Threat Hunting!
 
