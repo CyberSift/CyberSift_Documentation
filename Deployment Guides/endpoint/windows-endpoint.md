@@ -20,7 +20,7 @@ Download and save the installation powershell script to you harddrive. [The inst
   
 ## Examples
 
-``powershell
+``
 .\Install_64.ps1 -server ec2-5-7-2-1.us-west-2.compute.amazonaws.com -Interface 1 -All
 ``
   
@@ -28,7 +28,7 @@ Download and save the installation powershell script to you harddrive. [The inst
 
 * Download a program that depends on libpcap such as [packetbeat](https://github.com/CyberSift/vendor_binaries/raw/master/windows/packetbeat-5.2.2-windows-x86_64.zip) or [WinDump](http://www.winpcap.org/windump/install/default.htm). 
 * Get a list of interfaces that can be monitored:
-  * **packetbeat**: packetbeat -d
+  * **packetbeat**: packetbeat -devices
   * **windump** : windump.exe -D
   Use the interface index number as input to the "-Interface" parameter
 
