@@ -65,3 +65,22 @@ One of the easiest ways to gnerate logs in CyberSift is to trigger the in-built 
 ![cs-dashboard-honeypot](https://docs.google.com/drawings/d/1ZRJIOdCS0QMnwEg83S7DZXQ-v6RggHnk_sM8WlzKyzQ/pub?w=929&h=100)
 
 This quick test shows that CyberSift is accepting logs, and also that we have successfully connected to our backend ElasticSearch service.
+
+### Send some endpoint logs to cybersift
+
+Another simple way of testing cybersift is to start sending some endpoint logs to elasticsearch. You can try this with a windows system. Simply follow the installation procedure outlined here:
+
+[Installing the Endpoint Agent on Windows](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/endpoint/windows-endpoint.md)
+
+After successfully installing the agent, you can click on the **CyberSift Logging Engine** item in the CyberSift dashboard. This will take you to the Kibana backend that powers CyberSift. 
+
+**Note:** Since this is probably the first time running CyberSift, you need to refresh the indices to ensure Kibana will display the correct information. To do this, click on "Management > Index Patterns > packetbeat-\*" and click on the refresh icon, as shown below. Repeat this for filebeat-\*
+
+[!cs-refresh-index](https://docs.google.com/drawings/d/1qztmpOz02rD09wX9HZ9qZawxpxG-NhQcqLXo5sQjbdw/pub?w=926&h=276)
+
+All done! Now in the "Discover" tab, indices should start being populated, as shown below:
+
+[!cs-populated-index](https://docs.google.com/drawings/d/1YxPwOAKxjXnTmxiKGuBMIgIPOpsK6F62_ayb2P5QN3w/pub?w=925&h=204)
+
+Happy Threat Hunting!
+
