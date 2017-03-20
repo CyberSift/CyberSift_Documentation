@@ -59,3 +59,9 @@ TODO
 **All done!** We're ready to start sending logs to CyberSift!. Some elements of the UI may appear blank or unresponsive until you send some logs to Cyberift. Let's quickly test ssending some information to CyberSift to ensure everything is working as it should
 
 ### Generate some honeypot alerts.
+
+One of the easiest ways to gnerate logs in CyberSift is to trigger the in-built honeypot. Simply try to SSH to CyberSift's public IP (i.e. the EC2 instance public IP). After logging in successfully, refresh the CyberSift dashboard and you should see something similar to the below:
+
+![cs-dashboard-honeypot](https://docs.google.com/drawings/d/1ZRJIOdCS0QMnwEg83S7DZXQ-v6RggHnk_sM8WlzKyzQ/pub?w=929&h=100)
+
+This quick test shows that CyberSift is accepting logs, and also that we have successfully connected to our backend ElasticSearch service.
