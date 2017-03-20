@@ -14,6 +14,15 @@ Download and save the installation powershell script to you harddrive. [The inst
   * **-DetectProcess** : (optional) if specified will also attempt to detect which program / process generated a recorded network flow
   * **-Dns** : (optional) monitor DNS requests and responses (enabled you to use the CyberSift DNS Module)
   * **-IncludeBestPractices** : (optional) apart from DNS, process, and flow information, also monitor for other indicators of compromise (at the cost of additional network traffic generated and storage consumed on CyberSift)
+  * **-All** : (optional) convenience switch; combination of -Dns -Flows -IncludeBestPractices -DetectProcess
+
+*Please note that **at least** -Dns or -Flows is required
+  
+## Examples
+
+``powershell
+.\Install_64.ps1 -server ec2-5-7-2-1.us-west-2.compute.amazonaws.com -Interface 1 -All
+``
   
 ## Determine the interface number to monitor
 
