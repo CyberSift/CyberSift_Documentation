@@ -14,6 +14,10 @@ CyberSift provides AWS-backed cloud services which allow for provisioning and ru
 
 ### What Would You Like To Do?
 
+- [I would like to deploy CyberSift in the AWS cloud environment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-aws.md)
+
+Deploy CyberSift in the AWS cloud
+
 - [I would like to send my firewall's syslog connection logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/firewall-connections-syslog.md)
 
 This is normally the first step in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-logs-without-firewall.md)
