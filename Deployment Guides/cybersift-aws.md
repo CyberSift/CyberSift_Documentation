@@ -1,7 +1,9 @@
 # Deploy AWS to Amazon Web Services Cloud
 
 ## Overview
-TODO
+In this deployment guide we will go through provisioning a complete CyberSift installation in AWS cloud. The general architecture will look as follows:
+
+![cs-aws-overview](https://docs.google.com/drawings/d/1sM1wzGNCuBX9Yn0IKkWQ6ArDqJ5IaD-owGavwFPfoVI/pub?w=960&h=720)
 
 ## Procedure
 
