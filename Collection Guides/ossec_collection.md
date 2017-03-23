@@ -26,7 +26,27 @@ There are several guides available on how to do this:
 
 3. On the OSSEC server, install [Elastic Filebeat](https://www.elastic.co/products/beats/filebeat). This agent will be responsible for shipping logs off to CyberSift. 
 
-4. Once installed, 
+4. Once installed, configure filebeat to read OSSEC logs and send them to CyberSift. Below is a sample configuration file that will do this
+
+`
+filebeat:
+  prospectors:
+    -
+      paths:
+                - /var/ossec/logs/alerts/alerts.json
+      input_type: log
+      ignore_older: 168h
+      close_inactive: 24h
+      document_type: ossec_log
+      json.keys_under_root: true  
+
+output.elasticsearch:
+  hosts: ["http://192.168.168.170:80/cybersift_elasticsearch"]
+  template.enabled: true
+  template.path: "filebeat.template.json"
+  template.overwrite: false
+  index: "ossec-%{+yyyy.MM.dd}" 
+`
 
 ![Defining the ossec index in CyberSift/Kibana](https://docs.google.com/drawings/d/1ieNOkhT6g6wFKp8A7HtsyaMnRg4z8_mEw7xEuw6DLEA/pub?w=596&h=544)
 
