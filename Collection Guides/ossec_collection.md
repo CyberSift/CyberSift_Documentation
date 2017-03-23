@@ -41,12 +41,13 @@ filebeat:
       json.keys_under_root: true  
 
 output.elasticsearch:
-  hosts: ["http://192.168.168.170:80/cybersift_elasticsearch"]
+  hosts: ["http://192.168.1.1:80/cybersift_elasticsearch"]
   template.enabled: true
   template.path: "filebeat.template.json"
   template.overwrite: false
   index: "ossec-%{+yyyy.MM.dd}" 
 ```
+**NOTE:** Make sure to change the IP address as appropriate to your environment but it's important to keep the *:80/cybersift_elasticsearch* part of the URL
 
 ![Defining the ossec index in CyberSift/Kibana](https://docs.google.com/drawings/d/1ieNOkhT6g6wFKp8A7HtsyaMnRg4z8_mEw7xEuw6DLEA/pub?w=596&h=544)
 
