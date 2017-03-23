@@ -2,7 +2,7 @@
 
 ## Table Of Contents
 * [Overview](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#overview)
-* [OSSEC, PCI and CyberSift]()
+* [OSSEC, PCI and CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#ossec-pci-and-cybersift)
 * [Procedure](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#procedure)
 * [Analysing OSSEC logs in CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#analysing-ossec-logs-in-cybersift)
     * [Context Enrichment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#context-enrichment)
@@ -20,7 +20,7 @@ In addition, CyberSift applies machine learning techiques to perform *hyper-aler
 
 ## OSSEC, PCI and CyberSift
 
-Work In Progress
+OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls
 
 ## Procedure
 
