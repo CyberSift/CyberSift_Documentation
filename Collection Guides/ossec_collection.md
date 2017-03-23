@@ -2,7 +2,13 @@
 
 ## Overview
 
-TODO
+[OSSEC](http://ossec.github.io/) is a popular rule based HIDS that can be deployed on both windows and linux. CyberSift's ElasticSearch backend can be used to collect and visualize the logs that an OSSEC deployment generates. Once the logs are stored within CyberSift, you can define alert rules that trigger on a variety of conditions such as sudden increases, flatlines, or alert on keywords
+
+In addition, CyberSift applies machine learning techiques to perform *hyper-alerting*, alerting on abnormalities such as:
+* rarely seen OSSEC events that may warrant further investigation
+* abnormal combinations of events that are not usually seen in your environment
+
+Hyper-Alerting helps your analysts focus on deviations from the norm - those events that are probably of more significance to your security stance.
 
 ## Procedure
 
