@@ -20,7 +20,11 @@ In addition, CyberSift applies machine learning techiques to perform *hyper-aler
 
 ## OSSEC, PCI and CyberSift
 
-OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls
+OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls. OSSEC is an extremely powerful tool worthy of it's own book... but on it's own it doesnt provide full PCI compliance. CyberSift's ELK-based logging engine helps you adhere to the following additional PCI controls:
+
+* 10.5 Secure audit trails so they cannot be altered.
+* 10.6.1 Review the following at least daily: All security events, Logs of all critical system components, etc.
+* 10.7 Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis
 
 ## Procedure
 
