@@ -8,7 +8,7 @@ In addition, CyberSift applies machine learning techiques to perform *hyper-aler
 * rarely seen OSSEC events that may warrant further investigation
 * abnormal combinations of events that are not usually seen in your environment
 
-Hyper-Alerting helps your analysts focus on deviations from the norm - those events that are probably of more significance to your security stance.
+**Hyper-Alerting** helps your analysts focus on deviations from the norm - those events that are probably of more significance to your security stance.
 
 ## Procedure
 
@@ -62,5 +62,11 @@ This allows us to start visualizing the logs as shown below, and creating dashbo
 
 
 ## Analysing OSSEC logs in CyberSift
+
+### Context Enrichment
+
+TODO
+
+### HyperAlerting
 
 TODO
