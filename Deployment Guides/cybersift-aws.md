@@ -33,7 +33,7 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 
 ### Configuring the CyberSift Processing Server
 
-6. Launch the CyberSift AWS AMI. The AMI can be found in the EC2 dashboard under Images > AMIs (please note that you need to contact CyberSift support to gain access to this AMI - it is not publically available yet). Right click and “launch” the AMI. When reviewing the settings, we recommend allowing only the following ports, only from authorized public IPs:
+6. Launch the CyberSift AWS AMI. The AMI can be found in the EC2 dashboard under Images > AMIs (please note that you need to contact CyberSift support to gain access to this AMI - it is not publically available yet). Right click and “launch” the AMI. Select the instance type appropriate to your environment and click on **Review and Launch**. When reviewing the settings, we recommend allowing only the following ports, only from authorized public IPs:
 
  * SSH (port 22)
  * Management SSH (please contact CyberSift Support)
