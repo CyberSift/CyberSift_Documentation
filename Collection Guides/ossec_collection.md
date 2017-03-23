@@ -20,11 +20,17 @@ In addition, CyberSift applies machine learning techiques to perform *hyper-aler
 
 ## OSSEC, PCI and CyberSift
 
-OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls. OSSEC is an extremely powerful tool worthy of it's own book... but on it's own it doesnt provide full PCI compliance. CyberSift's ELK-based logging engine helps you adhere to the following additional PCI controls:
+OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls. OSSEC is an extremely powerful tool [worthy of it's own book...](https://www.amazon.com/Instant-Host-based-Intrusion-Detection-System/dp/1782167641/) but on it's own it doesnt provide full PCI compliance. 
+
+CyberSift's ELK-based logging engine helps you adhere to the following additional PCI controls:
 
 * 10.5 Secure audit trails so they cannot be altered.
 * 10.6.1 Review the following at least daily: All security events, Logs of all critical system components, etc.
 * 10.7 Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis
+
+Let's have a closer look at PCI control **10.6:**
+* 10.6 Review logs and security events for all system components to identify anomalies or suspicious activity.
+This is quite a broad requirement. With OSSEC deployed your security team will start collecting security events, but often times the sheer amount of security events overwhelm the limited resources of security teams to review effectively. This is where CyberSift's OSSEC engine comes into play. It performs ***hyper-alerting & context-enrichment***, notifying teams of sequences of events which are abnormal, so they can focus their efforts on what really matters. CyberSift also leverages OSSEC logs to enrich it's other anomaly engines such as the HTTP anomaly engine (see PCI requirement **6.6**), further reducing false positives and increasing accuracy.
 
 ## Procedure
 
