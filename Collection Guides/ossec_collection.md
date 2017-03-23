@@ -14,6 +14,12 @@ Hyper-Alerting helps your analysts focus on deviations from the norm - those eve
 
 TODO
 
+![Defining the ossec index in CyberSift/Kibana](https://docs.google.com/drawings/d/1ieNOkhT6g6wFKp8A7HtsyaMnRg4z8_mEw7xEuw6DLEA/pub?w=596&h=544)
+
+![OSSEC logs in CyberSift/Kibana]
+(https://docs.google.com/drawings/d/13kHPKOayCxIrWfqcOYIHpUKXtleAnlntlc1xuQS6GFw/pub?w=941&h=329)
+
+
 ## Analysis
 
 TODO
