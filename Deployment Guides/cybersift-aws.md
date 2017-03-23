@@ -19,11 +19,11 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 
 ![es-domain-settings](https://docs.google.com/drawings/d/1w_vVfW-ckPHbTZY_T5pAlEHgSIQ_BGSupznGLfcDkCA/pub?w=756&h=680)
 
-4. Click next and proceed to setup an access policy. We recommend at the very least setting up an IP address policy that restricts access to the elasticsearch domain to just your authorized IP addresses. This can be done by choosing the "Allow access to the domain from specific IP(s)" option from the template drop down menu. Later on, we can close all access to the elasticsearch domain except for the CyberSift processing server IP address, making this a bit more secure. To start with, enter your public IP address here:
+4. Click next and proceed to setup an access policy. We recommend at the very least setting up an IP address policy that restricts access to the elasticsearch domain to just your authorized IP addresses. This can be done by choosing the *"Allow access to the domain from specific IP(s)"* option from the template drop down menu. Later on, we can close all access to the elasticsearch domain except for the CyberSift processing server IP address, making this a bit more secure. To start with, enter your public IP address here:
 
 ![aws-es-access-policy](https://docs.google.com/drawings/d/1SyXgmHyVHSG6CnejC0IjCRA4iBGMyKFQ8rJWuAY2UoM/pub?w=899&h=518)
 
-5. Review the generated settings and you’re done! Make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
+5. Review the generated settings, click next, and you’re done! Make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
 
 ![aws-es-review](https://docs.google.com/drawings/d/1uqOf9zEhMUOcjL5qWxqamduppHYBosYdQr9Rs9YgVQY/pub?w=918&h=2540)
 
