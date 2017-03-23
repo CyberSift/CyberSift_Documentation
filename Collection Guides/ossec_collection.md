@@ -47,13 +47,20 @@ output.elasticsearch:
   template.overwrite: false
   index: "ossec-%{+yyyy.MM.dd}" 
 ```
-**NOTE:** Make sure to change the IP address as appropriate to your environment but it's important to keep the *:80/cybersift_elasticsearch* part of the URL
+**NOTE 1:** Make sure to change the IP address as appropriate to your environment but it's important to keep the *:80/cybersift_elasticsearch* part of the URL
+
+**NOTE 2:** Spacing & indentation is important in YAML configuration files like the one above, so if you have problems do a double take on this...
+
+5. At this stage, OSSEC is shipping logs to CyberSift. We need to instruct Kibana to start displaying the collected OSSEC information. 
+This is done by simply adding a new index. From the CyberSift Dashboard, click on the **CyberSift Logging Engine** option, click on **Management > Index Patterns** and type in **ossec-\*** as shown below.
 
 ![Defining the ossec index in CyberSift/Kibana](https://docs.google.com/drawings/d/1ieNOkhT6g6wFKp8A7HtsyaMnRg4z8_mEw7xEuw6DLEA/pub?w=596&h=544)
+
+This allows us to start visualizing the logs as shown below, and creating dashboards using these logs
 
 ![OSSEC logs in CyberSift/Kibana](https://docs.google.com/drawings/d/13kHPKOayCxIrWfqcOYIHpUKXtleAnlntlc1xuQS6GFw/pub?w=941&h=329)
 
 
-## Analysis
+## Analysing OSSEC logs in CyberSift
 
 TODO
