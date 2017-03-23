@@ -7,6 +7,8 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 
 ## Procedure
 
+### Configuring the AWS managed ElasticSearch Cluster
+
 1. Create a new Managed Elasticsearch Service. Select the hosted elasticsearch option in AWS. If you do not see this option type it into the search bar as shown below
 
 ![aws-hosed-es](https://docs.google.com/drawings/d/1QvRwJ7rMoQ3CRl1HLMsRJuvVm6amx0WOoBP30gpPjSg/pub?w=778&h=145)
@@ -26,6 +28,10 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 5. Review the generated settings, click *confirm and create*, and you’re done! In the following screen, make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
 
 ![aws-es-review](https://docs.google.com/drawings/d/1uqOf9zEhMUOcjL5qWxqamduppHYBosYdQr9Rs9YgVQY/pub?w=918&h=2540)
+
+**NOTE:** This may take a long while (about 15-30mins) to provision. Please wait until you see a screen similar to the above.
+
+### Configuring the CyberSift Processing Server
 
 6. Launch the CyberSift AWS AMI. The AMI can be found in the EC2 dashboard under Images > AMIs (please note that you need to contact CyberSift support to gain access to this AMI - it is not publically available yet). Right click and “launch” the AMI. When reviewing the settings, we recommend allowing only the following ports, only from authorized public IPs:
 
