@@ -2,6 +2,7 @@
 
 ## Table Of Contents
 * [Overview](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#overview)
+* [OSSEC, PCI and CyberSift]()
 * [Procedure](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#procedure)
 * [Analysing OSSEC logs in CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#analysing-ossec-logs-in-cybersift)
     * [Context Enrichment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#context-enrichment)
@@ -16,6 +17,10 @@ In addition, CyberSift applies machine learning techiques to perform *hyper-aler
 * abnormal combinations of events that are not usually seen in your environment
 
 **Hyper-Alerting** helps your analysts focus on deviations from the norm - those events that are probably of more significance to your security stance.
+
+## OSSEC, PCI and CyberSift
+
+Work In Progress
 
 ## Procedure
 
