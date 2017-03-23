@@ -30,6 +30,7 @@ CyberSift's ELK-based logging engine helps you adhere to the following additiona
 
 Let's have a closer look at PCI control **10.6:**
 * 10.6 Review logs and security events for all system components to identify anomalies or suspicious activity.
+
 This is quite a broad requirement. With OSSEC deployed your security team will start collecting security events, but often times the sheer amount of security events overwhelm the limited resources of security teams to review effectively. This is where CyberSift's OSSEC engine comes into play. It performs ***hyper-alerting & context-enrichment***, notifying teams of sequences of events which are abnormal, so they can focus their efforts on what really matters. CyberSift also leverages OSSEC logs to enrich it's other anomaly engines such as the HTTP anomaly engine (see PCI requirement **6.6**), further reducing false positives and increasing accuracy.
 
 ## Procedure
