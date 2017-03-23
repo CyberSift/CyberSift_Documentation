@@ -4,8 +4,8 @@
 * [Overview](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#overview)
 * [Procedure](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#procedure)
 * [Analysing OSSEC logs in CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#analysing-ossec-logs-in-cybersift)
- * [Context Enrichment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#context-enrichment)
- * [Hyper-Alerting](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#hyperalerting)
+    * [Context Enrichment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#context-enrichment)
+    * [Hyper-Alerting](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#hyperalerting)
 
 ## Overview
 
