@@ -7,7 +7,7 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 
 ## Procedure
 
-1. Create a new Managed Elasticsearch Service. Select the hosted elasticsearch option in AWS.
+1. Create a new Managed Elasticsearch Service. Select the hosted elasticsearch option in AWS. If you do not see this option type it into the search bar as shown below
 
 ![aws-hosed-es](https://docs.google.com/drawings/d/1QvRwJ7rMoQ3CRl1HLMsRJuvVm6amx0WOoBP30gpPjSg/pub?w=778&h=145)
 
