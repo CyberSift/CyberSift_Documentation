@@ -28,7 +28,7 @@ There are several guides available on how to do this:
 
 4. Once installed, configure filebeat to read OSSEC logs and send them to CyberSift. Below is a sample configuration file that will do this
 
-`
+```
 filebeat:
   prospectors:
     -
@@ -46,7 +46,7 @@ output.elasticsearch:
   template.path: "filebeat.template.json"
   template.overwrite: false
   index: "ossec-%{+yyyy.MM.dd}" 
-`
+```
 
 ![Defining the ossec index in CyberSift/Kibana](https://docs.google.com/drawings/d/1ieNOkhT6g6wFKp8A7HtsyaMnRg4z8_mEw7xEuw6DLEA/pub?w=596&h=544)
 
