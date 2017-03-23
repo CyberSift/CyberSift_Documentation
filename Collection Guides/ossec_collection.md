@@ -20,7 +20,16 @@ In addition, CyberSift applies machine learning techiques to perform *hyper-aler
 
 ## OSSEC, PCI and CyberSift
 
-OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls. OSSEC is an extremely powerful tool [worthy of it's own book...](https://www.amazon.com/Instant-Host-based-Intrusion-Detection-System/dp/1782167641/) but on it's own it doesnt provide full PCI compliance. 
+OSSEC helps you in complaince efforts such as PCI. OSSEC provides a handy **[PCI DSS 3.0 Guide](https://goo.gl/KHsZ5S)** that illustrates which OSSEC components help to adhere to individual PCI controls. For example, a non-exhaustive list of what controls can be satisfied using OSSEC would be:
+
+   * 6.4 Follow change control processes and procedures for all changes to system components.
+   * 10.5 Secure audit trails so they cannot be altered. Use file-integrity monitoring or change-detection software on logs to ensure that existing log data cannot be changed without generating alerts.
+   * 10.6 Review logs and security events for all system components to identify anomalies or suspicious activity.
+   * 11.4 Use intrusion-detection and/or intrusion-prevention techniques to detect and/or prevent intrusions into the network.
+   * 11.5 Deploy a change-detection mechanism (for example, file-integrity monitoring tools) to alert personnel to unauthorized modification of critical system files, configuration files, or content files; and configure the software to perform critical file comparisons at least weekly.
+   * 12.10 Implement an incident response plan. Be prepared to respond immediately to a system breach.
+
+OSSEC is an extremely powerful tool [worthy of it's own book...](https://www.amazon.com/Instant-Host-based-Intrusion-Detection-System/dp/1782167641/) but on it's own it doesnt provide full PCI compliance. 
 
 CyberSift's ELK-based logging engine helps you adhere to the following additional PCI controls:
 
