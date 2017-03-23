@@ -12,7 +12,21 @@ Hyper-Alerting helps your analysts focus on deviations from the norm - those eve
 
 ## Procedure
 
-TODO
+1. Install OSSEC in your environment.
+There are several guides available on how to do this:
+  * [UNIX](https://github.com/ossec/ossec-hids)
+  * [CentOS 7](https://www.vultr.com/docs/how-to-install-ossec-hids-on-a-centos-7-server)
+  * [Windows Agents](http://ossec.github.io/downloads.html)
+  
+**TIP:** always use the latest version to avoid bugs. The easiest is to install your OSSEC server on a linux box using the procedure outlined in [OSSEC's github page](https://github.com/ossec/ossec-hids). Linux agents can be installed using the same procedure, while Windows agent binaries can be downloaded from the link above.
+
+2. In preperation for shipping logs to CyberSift, [configure OSSEC to output logs in JSON format](http://ossec-docs.readthedocs.io/en/latest/manual/output/json-alert-log-output.html#enabling-json-output). In a typical installation, this will output JSON formatted logs to **/var/ossec/logs/alerts/alerts.json**
+
+**TIP:** if ossec complains that the *jsonout_output* configuration directive is not recognised, you need to upgrade to the latest version
+
+3. On the OSSEC server, install [Elastic Filebeat](https://www.elastic.co/products/beats/filebeat). This agent will be responsible for shipping logs off to CyberSift. 
+
+4. Once installed, 
 
 ![Defining the ossec index in CyberSift/Kibana](https://docs.google.com/drawings/d/1ieNOkhT6g6wFKp8A7HtsyaMnRg4z8_mEw7xEuw6DLEA/pub?w=596&h=544)
 
