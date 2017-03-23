@@ -23,7 +23,7 @@ In this deployment guide we will go through provisioning a complete CyberSift in
 
 ![aws-es-access-policy](https://docs.google.com/drawings/d/1SyXgmHyVHSG6CnejC0IjCRA4iBGMyKFQ8rJWuAY2UoM/pub?w=899&h=518)
 
-5. Review the generated settings, click next, and you’re done! Make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
+5. Review the generated settings, click *confirm and create*, and you’re done! In the following screen, make a note of the endpoint url because we'll need it next when we setup the CyberSift processing server.
 
 ![aws-es-review](https://docs.google.com/drawings/d/1uqOf9zEhMUOcjL5qWxqamduppHYBosYdQr9Rs9YgVQY/pub?w=918&h=2540)
 
