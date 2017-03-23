@@ -1,5 +1,12 @@
 # Collecting and Analysing OSSEC logs
 
+## Table Of Contents
+* [Overview](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#overview)
+* [Procedure](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#procedure)
+* [Analysing OSSEC logs in CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#analysing-ossec-logs-in-cybersift)
+ * [Context Enrichment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#context-enrichment)
+ * [Hyper-Alerting](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#hyperalerting)
+
 ## Overview
 
 [OSSEC](http://ossec.github.io/) is a popular rule based HIDS that can be deployed on both windows and linux. CyberSift's ElasticSearch backend can be used to collect and visualize the logs that an OSSEC deployment generates. Once the logs are stored within CyberSift, you can define alert rules that trigger on a variety of conditions such as sudden increases, flatlines, or alert on keywords
@@ -47,7 +54,8 @@ output.elasticsearch:
   template.overwrite: false
   index: "ossec-%{+yyyy.MM.dd}" 
 ```
-**NOTE 1:** Make sure to change the IP address as appropriate to your environment but it's important to keep the *:80/cybersift_elasticsearch* part of the URL
+
+**NOTE 1:** Make sure to change the IP address as appropriate to your environment but it's important to keep the ***:80/cybersift_elasticsearch*** part of the URL
 
 **NOTE 2:** Spacing & indentation is important in YAML configuration files like the one above, so if you have problems do a double take on this...
 
