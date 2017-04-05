@@ -1,8 +1,8 @@
-# Collecting and Analysing OSSEC
+# Collecting and Analysing SNORT logs
 
 ## Table Of Contents
 * [Overview](#)
-* [Shipping SNORT logs to CyberSift]
+* [Shipping SNORT logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/snort_collection.md#shipping-snort-logs-to-cybersift)
 
 ## Overview
 
