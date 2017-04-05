@@ -13,3 +13,5 @@ CyberSift can collect and analyse information from a wide variety of sources, fr
 - ### [DNS Module](#)
 
 - ### [OSSEC Module](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md)
+
+- ### [SNORT Module](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/snort_collection.md)
