@@ -34,9 +34,9 @@ CyberSift also allows you to vizualize which processes (e.g Skype, Chrome, Apach
 
 
 
-- [I would like to use CyberSift to monitor my DNS requests](#)
+- [I would like to use CyberSift to monitor my DNS requests](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/DNS)
 
-
+CyberSift monitors and performs anomaly detection on your environment's DNS traffic, allowing you to mitigate a wide of threats.
 
 - [I would like to use Snort to enrich the logs sent to CyberSift](#)
 
