@@ -1,8 +1,8 @@
 # CyberSift DNS module
 
 ## Table Of Contents
-- [Overview](#)
-- [Why Use the DNS Module?](#)
+- [Overview](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/DNS#overview)
+- [Why Use the DNS Module?](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/DNS#why-use-the-dns-module)
 
 ## Overview
 
