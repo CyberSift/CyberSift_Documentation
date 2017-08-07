@@ -3,6 +3,7 @@
 ## Table Of Contents
 - [Overview](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/IP#overview)
 - [Why Use the IP Module?](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/DNS#why-use-the-ip-module)
+- [Writing User Defined Templates](https://github.com/CyberSift/CyberSift_Documentation/blob/master/CyberSift%20Modules/IP/README.md#writing-user-defined-templates)
 
 ## Overview
 
