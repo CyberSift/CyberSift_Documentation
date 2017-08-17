@@ -104,7 +104,7 @@ There are several important points here:
 | DestinationAddress | string | The Destination IP Address of the log entry |
 | DestinationPort | integer | The Destination Port of the log entry |
 | Bytes | integer | The amount of bytes transferred for this connection / log entry |
-| IPprotocol | string | Must be set to **tcp** or **udp** |
+| IPprotocol | string | Must be set to **tcp** or **udp** *(please note: **case sensitive**)* |
 | SourceDestinationTuple | string | A tuple in the form %{SourceAddress}:%{DestinationAddress}:%{DestinationPort}, eg *192.168.0.1:8.8.8.8:53* |
 
 In the above example, note the use of **mutate** the rename the original fields to match those presented in the table above. Also note how we use **mutate** to modify the field type to match those described in the table. 
