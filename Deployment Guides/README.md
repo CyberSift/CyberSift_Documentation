@@ -20,6 +20,7 @@ Deploy CyberSift in the AWS cloud
 
 - [I would like to send my firewall's syslog connection logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/firewall-connections-syslog.md)
 - [I would like to send my netflow connection logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-netflow.md)
+
 These would normally be the first steps in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog or neflow?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-logs-without-firewall.md)
 
 - [I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-endpoint-network-processes.md)
