@@ -3,6 +3,8 @@
 ### Inbound Ports Required:
 
 - Support management port (please contact CyberSift support)
+- If using syslog: UDP port 514
+- If using netflow: UDP port 2055
 
 ### Outbound Ports Required:
 
