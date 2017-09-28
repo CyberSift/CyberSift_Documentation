@@ -104,3 +104,6 @@ Notes:
 bin/logstash-plugin install logstash-filter-geoip
 ```
 as explained in the logstash documentation here: [https://www.elastic.co/guide/en/logstash/current/plugins-filters-geoip.html](https://www.elastic.co/guide/en/logstash/current/plugins-filters-geoip.html)
+
+- We assume that the Logstash version used is 5.2.1, available to download here:
+[https://www.elastic.co/downloads/past-releases/logstash-5-2-1](https://www.elastic.co/downloads/past-releases/logstash-5-2-1)
