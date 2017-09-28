@@ -44,3 +44,6 @@ CyberSift monitors and performs anomaly detection on your environment's DNS traf
 
 
 - [I would like to use OpenVas to enrich the logs sent to CyberSift](#)
+
+### Further Details
+- [What are the inbound and outbound ports that the CyberSift server requires?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/inbound-outbound-ports.md)
