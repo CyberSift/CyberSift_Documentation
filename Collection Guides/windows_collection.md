@@ -1,4 +1,4 @@
-# Collecting and Analysing OSSEC logs
+# Collecting and Analysing Windows Event logs
 
 ## Table Of Contents
 * [Overview](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/ossec_collection.md#overview)
@@ -10,6 +10,8 @@
 The ELK infrastructure makes it very easy to collect logs from windows servers. The CyberSift Windows Module then uses the collected information as input to several machine learning algorithms to highlight abnormalities in the logs. Currently the supported log sources are:
 
 - Windows Security Logs: Highlight abnormal user logins from different IPs, Workstations, or Processes
+
+!(https://lh6.googleusercontent.com/Yh6I7F_IIIn1M_JyCD5Eq66RSwWl80vWtj8--_8v9GcYxLSzUSEEoQTlKzrjm3f4s2n3_haqbnA4rdIitInk_8VQiah13cCfVd3W=w1920-h936-rw "CyberSift Nebula showing anomalous user login)
 
 - Windows System Logs: Highlight abnormal log entries and sequences
 
