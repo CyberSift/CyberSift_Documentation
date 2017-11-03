@@ -8,6 +8,8 @@ CyberSift can collect and analyse information from a wide variety of sources, fr
 
 - ### [IP Module](#)
 
+- ### [Windows Events Module](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/windows_collection.md)
+
 - ### [HTTP Module](#)
 
 - ### [DNS Module](#)
