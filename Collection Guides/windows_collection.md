@@ -13,6 +13,7 @@ The ELK infrastructure makes it very easy to collect logs from windows servers. 
 
 ![screenshot](https://lh6.googleusercontent.com/Yh6I7F_IIIn1M_JyCD5Eq66RSwWl80vWtj8--_8v9GcYxLSzUSEEoQTlKzrjm3f4s2n3_haqbnA4rdIitInk_8VQiah13cCfVd3W=w1920-h936-rw "CyberSift Nebula showing anomalous user login)
 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 - Windows System Logs: Highlight abnormal log entries and sequences
 
 ## Procedure
