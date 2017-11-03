@@ -19,10 +19,30 @@ The ELK infrastructure makes it very easy to collect logs from windows servers. 
 
 ## Procedure
 
+- [Install winlogbeat as per instructions](https://www.elastic.co/guide/en/beats/winlogbeat/current/winlogbeat-installation.html)
+- When configuring winlogbeat, **disable** any elasticsearch outputs and instead **enable** logstash outputs, for example:
 
+```
+output.logstash:
+    hosts: ["192.168.1.1:5044"]
+```
+where "192.168.1.1" should be replaced with your CyberSift IP address
 
 ## Inserting Tenant Information
 
+If you are using multi-tenancy, we have a couple more steps of configuration:
+- In the CyberSift UI Dashboard, create a new tenant from "Configuration > Manage Tenants", making a note of the tenant name chosen
+![creating a new tenant](https://github.com/CyberSift/CyberSift_Documentation/raw/master/Collection%20Guides/static/img/create_tenant.png)
+
+- In the winlogbeat configuration, add the following configuration to the **winlogbeat.yml** file:
+
+```
+fields_under_root: true
+fields:
+    tenant: "testlab"
+```
+
+replacing "testlab" with the name of the tenant chosen in the previous step
 
 # Notes
 - Tested using winlogbeat v5.6.3, [available here](https://www.elastic.co/downloads/past-releases/winlogbeat-5-6-3)
