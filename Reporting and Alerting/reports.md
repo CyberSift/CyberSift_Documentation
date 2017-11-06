@@ -17,6 +17,8 @@ Creating a custom report is easy in CyberSift. Before creating a report, plan wh
 
 ![custom report configuration](https://github.com/CyberSift/CyberSift_Documentation/raw/master/Reporting%20and%20Alerting/static/img/cs_custom_report_2.png)
 
+4. Specify an email recipient, and subsequently this recipient will recieve a daily email from your cybersift installation with a PDF attachment containing this custom report.
+
 ## Screencast Demo
 
 Please click here for a screencast taken live during a webinar: [YouTube Link](https://youtu.be/amTb9Vw6n1w)
