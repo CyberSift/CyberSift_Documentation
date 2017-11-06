@@ -8,7 +8,7 @@ Repository for CyberSift documentation. Should you feel a feature is not well do
 Guides which describe which logs an organization should collect and monitor. They describe how CyberSift analyzes these logs to mitigate threats to your organization.
 
 - ### [Deployment Guides](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/README.md)
-Guides to help you determine the best way to deploy CyberSift with minimal impact to you organizatin
+Guides to help you determine the best way to deploy CyberSift with minimal impact to you organization
 
 - ### [Reporting and Alerting](https://github.com/CyberSift/CyberSift_Documentation/tree/master/Reporting%20and%20Alerting) 
 Guides to help you setup dashboards, reports and alerts
