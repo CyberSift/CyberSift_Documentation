@@ -10,7 +10,8 @@ Guides which describe which logs an organization should collect and monitor. The
 - ### [Deployment Guides](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/README.md)
 Guides to help you determine the best way to deploy CyberSift with minimal impact to you organizatin
 
-- ### [Reporting and Alerting](https://github.com/CyberSift/CyberSift_Documentation/tree/master/Reporting%20and%20Alerting) Guides to help you setup dashboards, reports and alerts
+- ### [Reporting and Alerting](https://github.com/CyberSift/CyberSift_Documentation/tree/master/Reporting%20and%20Alerting) 
+Guides to help you setup dashboards, reports and alerts
 
 - ### [CyberSift and Security Standards](https://github.com/CyberSift/CyberSift_Documentation/tree/master/Security%20Standards)
 Guides to help you use CyberSift features to ensure compliance to Security Standards such as ISO and PCI
