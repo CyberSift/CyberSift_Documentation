@@ -27,7 +27,7 @@ These would normally be the first steps in any deployment, and forms the basis f
 
 CyberSift also allows you to vizualize which processes (e.g Skype, Chrome, Apache, ma1wAr3.exe) handled the connection that you see on the console. This is currently supported on Linux and Windows systems only.
 
-- [I would like to use CyberSift to monitor Windows Event Logs (beta)](#)
+- [I would like to use CyberSift to monitor Windows Event Logs (beta)](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/windows_collection.md)
 
 
 
