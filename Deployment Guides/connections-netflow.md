@@ -57,7 +57,7 @@ filter {
 
     mutate {
         rename => { "[netflow][ipv4_dst_addr]" => "DestinationAddress" }
-        rename => { "[netflow][ipv4_dst_port" => "DestinationPort" }
+        rename => { "[netflow][l4_dst_port" => "DestinationPort" }
         rename => { "[netflow][in_bytes]" => "BytesReceived" }
         rename => { "[netflow][out_bytes]" => "BytesSent" }
         rename => { "[netflow][ipv4_src_addr]" => "SourceAddress" }
