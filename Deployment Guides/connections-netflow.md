@@ -81,6 +81,7 @@ filter {
 
     mutate {
 	    add_tag => ["Netflow"]
+	    add_field => { "SourceDestinationTuple" => "%{SourceAddress}:%{DestinationAddress}:%{DestinationPort}" }
 	}
 
   }
