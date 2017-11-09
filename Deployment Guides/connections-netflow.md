@@ -61,6 +61,7 @@ filter {
         rename => { "[netflow][in_bytes]" => "BytesReceived" }
         rename => { "[netflow][out_bytes]" => "BytesSent" }
         rename => { "[netflow][ipv4_src_addr]" => "SourceAddress" }
+	rename => { "[netflow][l4_src_port" => "SourcePort" }
     }
 
     mutate {
