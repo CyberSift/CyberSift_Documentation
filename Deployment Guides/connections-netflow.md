@@ -25,6 +25,10 @@ input {
 filter {
 
   if [type] == "netflow" {
+  
+    if !([netflow][direction] == 0 and [netflow][output_snmp] == 19) {
+                drop {}
+        }
 
     geoip {
     	  source => "[netflow][ipv4_dst_addr]"
@@ -100,6 +104,21 @@ output {
 
 Notes:
 - The above configuration file assumes the correct substitution of CYBERSIFT_IP_HERE
+- Pay special attention to **the section in the configuration that probably require modification**:
+
+```
+if !([netflow][direction] == 0 and [netflow][output_snmp] == 19) {
+                drop {}
+        }
+```
+This section is present to reduce the amount of duplicated netflow sessions. Netflow typically exports connections in a bidirectional manner, i.e. for a single TCP connection there are 2 or more exported flows - one for the inbound connection and one for the outbound connection. Some vendors (depending on configuration) even export before and after NAT flows - resulting in 4 flows which are essentially the same. CyberSift typically expects to see flows in the following format:
+
+| Source Address | Destination Address | Destination Port |
+| Private IP | Public Server IP | Corresponding Public Server Port |
+
+For best results, you will need to modify the **direction** and **output_snmp** values depending on your installation. [A full explanation of what the fields represent can be found here](https://www.cisco.com/en/US/technologies/tk648/tk362/technologies_white_paper09186a00800a3db9.html)
+
+
 - It also assumes that the geoIP plugin is installed using 
 
 ```
@@ -107,5 +126,5 @@ bin/logstash-plugin install logstash-filter-geoip
 ```
 For further details please review the logstash documentation here: [https://www.elastic.co/guide/en/logstash/current/plugins-filters-geoip.html](https://www.elastic.co/guide/en/logstash/current/plugins-filters-geoip.html)
 
-- We assume that the Logstash version used is **5.2.1**, available to download here:
-[https://www.elastic.co/downloads/past-releases/logstash-5-2-1](https://www.elastic.co/downloads/past-releases/logstash-5-2-1)
+- We assume that the Logstash version used is **5.6.4**, available to download here:
+[https://www.elastic.co/downloads/past-releases/logstash-5-6-4](https://www.elastic.co/downloads/past-releases/logstash-5-6-4)
