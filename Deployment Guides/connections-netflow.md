@@ -1,6 +1,6 @@
 # Collecting Netflow Records
 
-The CyberSift server also acts as a Netflow collector, meaning that you can point your netflow probes towards the CyberSift server **on UDP port 2055**. Most firewalls/routers support netflow - alternatively look to using programs such as [FProbe](http://fprobe.sourceforge.net/) or [NProbe](http://www.ntop.org/products/netflow/nprobe/)). The CyberSift server supports Netflow versions 5,9 and 10 (IPFIX) out of the box.
+The CyberSift server can acts as a Netflow collector, meaning that you can point your netflow probes towards the CyberSift server **on UDP port 2055**. Most firewalls/routers support netflow - alternatively look to using programs such as [FProbe](http://fprobe.sourceforge.net/) or [NProbe](http://www.ntop.org/products/netflow/nprobe/)). The CyberSift server supports Netflow versions 5,9 and 10 (IPFIX) out of the box. That being said, due to deduplication (see below) please contact CyberSift support for further information.
 
 ## Building your own netflow collector
 
