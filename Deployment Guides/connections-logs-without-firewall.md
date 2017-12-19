@@ -10,6 +10,18 @@ A port mirror essentially sends copies of your network data to a designated "Ana
 
 ### The Network Sniffer
 
+![ntopng logo](https://raw.githubusercontent.com/CyberSift/CyberSift_Documentation/master/Collection%20Guides/static/img/Screenshot%20from%202017-12-19%2011-56-18.png)
+
+The next stage is to deploy a network sniffer attached to the analysis port. CyberSift supports the excellent **NTOPNG** which comes in both commercial and open-source variants, maing it perfect for both enterprises and low-budget deployments. Installing ntopng is extremely easy. For example on a Ubuntu server simply issue the following commands as root:
+
+```
+apt-get install redis-server ntopng
+ntopng -F "logstash;W.X.Y.Z;tcp;5510" #replace W.X.Y.Z with your CyberSift server IP
+```
+
+The above command will start ntopng sniffing all traffic and sending it to CyberSift - which will take care of the rest! (Should you require further help and advice, CyberSift support will be happy to help)
+
+
 ### CyberSift
 
 ![L7 Visibility](https://raw.githubusercontent.com/CyberSift/CyberSift_Documentation/master/Collection%20Guides/static/img/CyberSift%20L7%20Protocol.jpeg)
