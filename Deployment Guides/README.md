@@ -14,36 +14,24 @@ CyberSift provides AWS-backed cloud services which allow for provisioning and ru
 
 ### What Would You Like To Do?
 
-- [I would like to deploy CyberSift in the AWS cloud environment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-aws.md)
-
-Deploy CyberSift in the AWS cloud
-
+#### Monitoring Network Traffic
 - [I would like to send my firewall's syslog connection logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/firewall-connections-syslog.md)
 - [I would like to send my netflow connection logs to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-netflow.md)
+- [What if I don't have a central firewall that supports syslog or neflow? Gathering data from SPAN/TAP ports](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-logs-without-firewall.md)
 
-These would normally be the first steps in any deployment, and forms the basis for CyberSift's IP Module. [What if I don't have a central firewall that supports syslog or neflow?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/connections-logs-without-firewall.md)
+#### Monitoring DNS Traffic
+- [I would like to use CyberSift to monitor my DNS requests](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/DNS)
 
+#### Monitoring Windows Events
+- [I would like to use CyberSift to monitor Windows Event Logs](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/windows_collection.md)
+
+#### Monitoring Endpoints
 - [I would like to use CyberSift Endpoint to enrich the logs sent to CyberSift](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-endpoint-network-processes.md)
 
 CyberSift also allows you to vizualize which processes (e.g Skype, Chrome, Apache, ma1wAr3.exe) handled the connection that you see on the console. This is currently supported on Linux and Windows systems only.
 
-- [I would like to use CyberSift to monitor Windows Event Logs (beta)](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Collection%20Guides/windows_collection.md)
-
-
-
-- [I would like to use CyberSift to monitor my HTTP Webservers](#)
-
-
-
-- [I would like to use CyberSift to monitor my DNS requests](https://github.com/CyberSift/CyberSift_Documentation/tree/master/CyberSift%20Modules/DNS)
-
-CyberSift monitors and performs anomaly detection on your environment's DNS traffic, allowing you to mitigate a wide of threats.
-
-- [I would like to use Snort to enrich the logs sent to CyberSift](#)
-
-
-
-- [I would like to use OpenVas to enrich the logs sent to CyberSift](#)
+#### Cloud Deployment
+- [I would like to deploy CyberSift in the AWS cloud environment](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/cybersift-aws.md)
 
 ### Further Details
 - [What are the inbound and outbound ports that the CyberSift server requires?](https://github.com/CyberSift/CyberSift_Documentation/blob/master/Deployment%20Guides/inbound-outbound-ports.md)
